@@ -1,0 +1,24 @@
+2:Write a blog on Difference between HTTP1.1 vs HTTP2
+HTTP1.1
+
+   a.) 1997,introduced president connecting,pipelining,cache-control and many other feature.
+
+   b.) It is relatively secure since it use digit authentication,NTLM Authentication.
+
+   c.) Expand on the caching sUPPORT BY using additional header like cache.control using entire tags.
+
+HTTP 2
+
+   a.) 2015, based on google's spdy allow multiplexing and sever push.
+
+   b.) Security concerns from previous will continous to be seen HTTP 10.However it is better equipped to deal TLS featur econnection error of type of Inadequate_security.
+
+   c.) underfying semantics of HTTP such as header,states code remain the same
+
+
+3:Write a blog about objects and its internal representation in Javascript
+
+  Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)in the sense.that while these primitive data-types all store a single value each (depending on their types).
+  
+
+  (objectName.propertyName)
