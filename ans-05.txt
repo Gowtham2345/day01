@@ -1,0 +1,71 @@
+
+
+    1.) Do the below programs in anonymous function & IIFE?
+    
+      a.Print odd numbers in an array
+
+           var add=function(a,b);
+           return=a+b;
+           };
+           console.log(add(12,13));
+       output;
+          
+           25
+
+       b. Convert all the strings to title caps in a string array
+
+
+       function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
+}
+
+
+      c. Sum of all numbers in an array
+
+      const numbers = [10, 20, 30, 40] 
+add = (a, b) =>  a + b
+const sum = numbers.reduce(add)
+
+
+      d.Return all the prime numbers in an array
+
+
+  function isPrime(num) {
+  if(num < 2) return false;
+
+  for (let k = 2; k < num; k++){
+    if( num % k == 0){
+      return false;
+    }
+  }
+  return true;
+}
+function isPrime(num) {
+    for (let i = 2; i * i <= num; i++)
+        if (num % i === 0)
+          return false; 
+    return num > 1;
+}
+
+
+
+ 2.) Do the below programs in arrow functions
+
+     a.Print odd numbers in an array
+
+       var add=(a,b)=>a+b;
+       console.log(add(12,13));
+
+     b.Convert all the strings to title caps in a string array
+
+        var str=()=>"hello world"{
+        console.log(str());
+
+     c.Sum of all numbers in an array
+
+         
